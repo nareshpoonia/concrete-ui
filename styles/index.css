@@ -1,0 +1,112 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Root */
+:root {
+  --primary-color: #6d435a;
+  --secondary-color: #b1ede8;
+  --background-color: #fffcf9;
+  --logo-font-family: "Lato", sans-serif;
+}
+
+/* Elements */
+nav {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Utility Classses */
+
+/* Site Specific CSS */
+
+body {
+  background-color: var(--background-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  font-family: var(--logo-font-family);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+nav .mainMenu {
+  display: flex;
+  list-style: none;
+}
+nav .mainMenu li a {
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.5rem;
+}
+nav .openMenu {
+  font-size: 2rem;
+  margin: 20px;
+  display: none;
+  cursor: pointer;
+}
+nav .logo {
+  margin: 6px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.open-menu {
+  display: none;
+}
+.hero {
+  height: 96vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.hero-header {
+  max-width: 60rem;
+  font-size: 65px;
+}
+
+.hero-text {
+  max-width: 700px;
+  font-size: 35px;
+  opacity: 0.7;
+}
+.mg-2 {
+  margin: 0 20px;
+}
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    transition: top 1s ease;
+    display: none;
+  }
+  .open-menu {
+    display: block;
+    margin-top: 15px;
+    margin-right: 5px;
+  }
+} ;
