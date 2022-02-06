@@ -139,9 +139,11 @@ body {
 
   .nav-menu {
     font-size: 2rem;
-    display: flex;
-    position: static;
-    left: 0;
+    display: block;
+    position: fixed;
+    height: 100vh;
+    right: 0rem;
+    margin-top: 2rem;
     top: 0rem;
     gap: 6rem;
     align-items: center;
@@ -149,7 +151,7 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     background-color: var(--primary-color);
-    width: 100%;
+    width: 30%;
     text-align: center;
     transition: 0.3s;
   }
