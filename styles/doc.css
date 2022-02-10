@@ -3,12 +3,50 @@
 .main-container {
   margin-top: 7rem;
   display: flex;
-  background-color: aqua;
 }
+
+/* Utility Classses */
+
+code {
+  color: blue;
+}
+
+.large-heading {
+  font-size: 5rem;
+}
+
+.mgl-2 {
+  margin-left: 2rem;
+}
+
+.mglr-2 {
+  margin: 0 2rem;
+}
+
+.fs-4 {
+  font-size: 1.8rem;
+}
+.fs-2 {
+  font-size: 2rem;
+}
+
+.lh-25p {
+  line-height: 25px;
+}
+
+.mg-2 {
+  margin: 2rem;
+}
+
+.mg-t-3 {
+  margin-top: 3rem;
+}
+
+/*  */
 
 .aside-menu {
   display: none;
-  background-color: yellow;
+  background-color: black;
   /* display: flex; */
   flex-direction: column;
   justify-content: center;

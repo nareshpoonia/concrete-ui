@@ -34,6 +34,10 @@ body {
 .mg-0-2 {
   margin: 0 2rem;
 }
+
+.mg-t-2 {
+  margin-top: 2rem;
+}
 .link-secondary-color {
   text-decoration: none;
   color: var(--secondary-color);
