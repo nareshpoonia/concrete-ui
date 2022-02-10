@@ -56,6 +56,12 @@ code {
   height: 100vh;
 }
 
+.section-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
 .aside-menu a {
   line-height: 5rem;
 }
