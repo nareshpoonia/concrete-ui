@@ -1,3 +1,5 @@
+@import url(/styles/doc.css);
+@import url(/styles/avatar.css);
 /* CSS Reset */
 * {
   margin: 0;
