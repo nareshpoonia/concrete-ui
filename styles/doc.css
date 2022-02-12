@@ -5,50 +5,35 @@
   margin-top: 7rem;
   display: flex;
 }
-
 /* Utility Classses */
-
 code {
   color: blue;
 }
-
 .large-heading {
   font-size: 5rem;
 }
-
-.medium-heading {
-  font-size: 3rem;
-}
-
 .mgl-2 {
   margin-left: 2rem;
 }
-
 .mglr-2 {
   margin: 0 2rem;
 }
-
 .fs-4 {
   font-size: 1.8rem;
 }
 .fs-2 {
   font-size: 2rem;
 }
-
 .lh-25p {
   line-height: 25px;
 }
-
 .mg-2 {
   margin: 2rem;
 }
-
 .mg-t-3 {
   margin-top: 3rem;
 }
-
 /*  */
-
 .aside-menu {
   display: none;
   background-color: black;
@@ -81,7 +66,6 @@ code {
   justify-content: center;
   align-items: center;
 }
-
 @media (min-width: 800px) {
   .aside-menu {
     display: flex;
